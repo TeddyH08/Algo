@@ -67,11 +67,31 @@ if (is_numeric($v)) {
 echo ("<br><br><br>====== EXO n°14 ======<br><br>");
 echo ("Demander à l'utilisateur d'entrer une année, et afficher si cette année est sextile ou bissextile<br>");
 
+?>
 
+<form method="post">
+    Année :  <input type="number" name="annee" /><br />
+    <input type="submit" name="submit" value="Envoie!" />
+</form>
+
+<?php
+
+$annee = $_POST['annee'];
+
+function bissextile($annee) {
+	if( (is_int($annee/4) && !is_int($annee/100)) || is_int($annee/400)) {
+		echo "C'est une année bissextile";
+	} else {
+		echo "C'est une année non bissextile";
+	}
+}
+
+bissextile($annee);
 
 
 echo ("<br><br><br>====== EXO n°14 ======<br><br>");
 echo ("Demander à l'utilisateur d'entrer une date, et afficher si cette date est valide ou non<br>");
-/* Code à ajouter ci-dessous */
+
+
 
 ?>

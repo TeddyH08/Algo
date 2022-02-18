@@ -89,7 +89,7 @@ function bissextile($annee) {
 bissextile($annee);
 
 
-echo ("<br><br><br>====== EXO n°14 ======<br><br>");
+echo ("<br><br><br>====== EXO n°15 ======<br><br>");
 echo ("Demander à l'utilisateur d'entrer une date, et afficher si cette date est valide ou non<br>");
 
 

@@ -106,3 +106,34 @@ n = 0
 while n <= 90 :
     n = randrange(0, 100, 1)
     print(n)
+
+# Exo 11
+
+print("Exo 11")
+
+print("Entrez une variable")
+o = input()
+
+# Exo 12
+
+print("Exo 12")
+
+print("Entrez un nombre")
+p = int(input())
+
+print(p)
+
+if (p % 2) == 0 :
+    print("C'est un nombre pair".format(p))
+else :
+    print("C'est un nombre impair".format(p))
+
+# Exo 13
+
+print("Exo 13")
+
+print("Entrez quelque chose")
+s = input()
+
+print(s)
+

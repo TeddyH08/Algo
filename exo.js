@@ -104,3 +104,59 @@ while (t <= 90) {
     console.log(t = Math.floor(Math.random() * 100));
 }
 
+
+// Exo 11
+
+// console.log("Exo 11");
+
+// var p = prompt("Entrez une variable");
+// console.log(p)
+
+// Exo 12
+
+// console.log("Exo 12");
+
+// var t = parseInt(prompt("Entrez un nombre"));
+
+// console.log(t);
+
+// if (t % 2 == 0) {
+//     console.log("votre nombre est pair");
+// } else {
+//     console.log("Votre nombre est impair");
+// }
+
+// Exo 13 
+
+// console.log("Exo 13");
+
+// var u = prompt("Entrez un quelque chose");
+
+// console.log(u);
+
+// if (parseInt(u)) {
+//     console.log("C'est un nombre");
+//     if (u % 2 == 0) {
+//         console.log("votre nombre est pair");
+//     } else {
+//         console.log("Votre nombre est impair");
+//     }
+// } else {
+//     console.log("Erreur, ce n'est pas un nombre");
+// }
+
+// Exo 14 
+
+console.log("Exo 14");
+
+var annee = parseInt(prompt("Entrez une année"));
+
+function bissextile(annee) {
+	if ((annee % 4 == 0) && ((annee % 100 != 0) || (annee % 400 == 0))) {
+		console.log("C'est une année bissextile");
+	} else {
+		console.log("C'est une année non bissextile");
+	}
+}
+
+bissextile(annee);
